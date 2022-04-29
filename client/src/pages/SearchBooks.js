@@ -123,8 +123,10 @@ const SearchBooks = () => {
             return (
               <Card key={book.bookId} border='dark'>
                 {book.image ? (
-                  <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
-                ) : null}
+                  <a href={book.link} target="_blank" rel="noreferrer">
+                    <Card.Img src={book.image} alt={`The cover for ${book.title}`} variant='top' />
+                  </a>
+                ) : <a href={book.link} target="_blank" rel="noreferrer" className='m-5'>More Information</a>}
                 <Card.Body>
                   <Card.Title>{book.title}</Card.Title>
                   <p className='small'>Authors: {book.authors}</p>
