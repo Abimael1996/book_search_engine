@@ -14,6 +14,8 @@ This MERN stack application allows you to search for books and save them in your
     
 Login into your account or Sign Up. Use the search bar to search for a book, author, etc. Click on 'Save this Book! to save a book. Then you can click on 'See Your Books' on the top right of your screen to see all the books you have saved.
 
+![screenshot](./images/screenshot.png)
+
 ## Contribute
     
 If you would like to contribute to this project, feel free to make a pull request.
